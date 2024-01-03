@@ -1,0 +1,4 @@
+NAME: MyTest
+DATA_PATH: data/mytest
+NUM_CATEGORY: 65
+USE_NORMALS: FALSE

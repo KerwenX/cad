@@ -1,6 +1,10 @@
 ckpts
 Data
-data
+data/initialize_models
+data/modelnet40_normal_resampled
+data/mytest
+data/ROCA
+data/ROCA.zip
 mask2former
 outputs
 *.pkl
