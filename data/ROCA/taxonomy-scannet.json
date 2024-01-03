@@ -1,0 +1,42 @@
+[
+  {
+    "synsetId": "03337140",
+    "name": "cabinet"
+  },
+  {
+    "synsetId": "02818832",
+    "name": "bed"
+  },
+  {
+    "synsetId": "04256520",
+    "name": "sofa"
+  },
+  {
+    "synsetId": "03001627",
+    "name": "chair"
+  },
+  {
+    "synsetId": "02747177",
+    "name": "bin"
+  },
+  {
+    "synsetId": "02933112",
+    "name": "cabinet"
+  },
+  {
+    "synsetId": "03211117",
+    "name": "display"
+  },
+  {
+    "synsetId": "04379243",
+    "name": "table"
+  },
+  {
+    "synsetId": "02871439",
+    "name": "bookcase"
+  },
+  {
+    "synsetId": "02808440",
+    "name": "bathtub"
+  }
+]

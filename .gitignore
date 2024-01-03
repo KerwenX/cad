@@ -3,7 +3,8 @@ Data
 data/initialize_models
 data/modelnet40_normal_resampled
 data/mytest
-data/ROCA
+data/ROCA/rendered_images
+data/ROCA/roca_pc
 data/ROCA.zip
 mask2former
 outputs

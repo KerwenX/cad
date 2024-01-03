@@ -517,7 +517,7 @@ class ROCA(data.Dataset):
         self.npoints = config.npoints
         self.tokenizer = config.tokenizer
         self.train_transform = config.train_transform
-        self.id_map_addr = os.path.join(config.DATA_PATH, 'taxonomy.json')
+        self.id_map_addr = os.path.join(config.DATA_PATH, 'taxonomy-scannet.json')
         self.rendered_image_addr = config.IMAGE_PATH
         self.picked_image_type = ['', '_depth.','_mask.','_albedo.']
         self.picked_rotation_degrees = list(range(0, 360, 12))
