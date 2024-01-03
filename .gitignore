@@ -1,0 +1,8 @@
+ckpts
+Data
+data
+mask2former
+outputs
+*.pkl
+*.log
+utils/bpe_simple_vocab_16e6.txt.gz

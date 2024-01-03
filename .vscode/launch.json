@@ -1,0 +1,62 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: current file",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Python: mask2former-demo",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/aston/Desktop/python/CAD-Matching/mask2former/demo/demo.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd": "/home/aston/Desktop/python/CAD-Matching/mask2former",
+            "args": [
+                "--config-file",
+                "configs/ade20k/instance-segmentation/swin/maskformer2_swin_large_IN21k_384_bs16_160k.yaml",
+                "--input",
+                "./images/3m.jpg",
+                // "./images/000100.jpg",
+                // "./images/000200.jpg",
+                // "./images/000300.jpg",
+                // "./images/000400.jpg",
+                // "./images/000500.jpg",
+                // "./images/000600.jpg",
+                // "./images/000700.jpg",
+                // "./images/000800.jpg",
+                // "./images/000900.jpg",
+                "--output",
+                "output",
+                "--opts",
+                "MODEL.WEIGHTS",
+                "checkpoints/model_final_92dae9.pkl"
+            ]
+        },
+        {
+            "name": "Python: backbone_extractor",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/aston/Desktop/python/CAD-Matching/mask2former/demo/backbone_feature.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd": "/home/aston/Desktop/python/CAD-Matching/mask2former",
+            "args": [
+                "--config-file",
+                "configs/ade20k/instance-segmentation/swin/maskformer2_swin_large_IN21k_384_bs16_160k.yaml",
+                "--opts",
+                "MODEL.WEIGHTS",
+                "checkpoints/model_final_92dae9.pkl"
+            ]
+        }
+    ]
+}
